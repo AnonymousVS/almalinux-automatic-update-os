@@ -30,13 +30,13 @@
 ### วิธีที่ 1 — รันจาก GitHub โดยตรง (แนะนำ)
 
 ```bash
-curl -s -L https://raw.githubusercontent.com/<your-user>/almalinux-automatic-update-os/main/auto-update-os.sh -o /tmp/auto-update-os.sh && bash /tmp/auto-update-os.sh
+curl -s -L https://raw.githubusercontent.com/AnonymousVS/almalinux-automatic-update-os/main/auto-update-os.sh -o /tmp/auto-update-os.sh && bash /tmp/auto-update-os.sh
 ```
 
 ### วิธีที่ 2 — Clone แล้วรัน
 
 ```bash
-git clone https://github.com/<your-user>/almalinux-automatic-update-os.git
+git clone https://github.com/AnonymousVS/almalinux-automatic-update-os.git
 cd almalinux-automatic-update-os
 chmod +x auto-update-os.sh
 bash auto-update-os.sh
